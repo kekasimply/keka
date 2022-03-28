@@ -24,7 +24,7 @@ body {
     font-size: 25px;
     font-weight: 600;
     text-transform: uppercase;
-    color: pink;
+    color: #FF9DBA;
 }
 
 nav {
@@ -44,4 +44,39 @@ ul li a {
 
 ul li a:hover {
     color: #FFC0CB;
+}
+
+.info-block {
+    
+}
+
+.block {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: 250px;
+    background: #FFC0CB;
+    border-radius: 25px;
+    padding: 30px;
+    color: #fff;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+.block:hover {
+    background-color: #FF9AAB;
+}
+
+.block h1 {
+    padding-bottom: 15px;
+}
+
+.block-two {
+    text-align: center;
+    margin: -220px 0px -150px -150px;
+    background: #FFC0CB;
+    border-radius: 25px;
+    padding: 30px;
+    color: #fff;
+    margin-right: 40%;
+    margin-left: 40%;
 }
