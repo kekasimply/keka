@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #fff;
-    font-family: Geometria, sans-serif;
+    background-color: #FFF0F2;
+    font-family: Montserrat, sans-serif;
 }
 
 .navbar {
@@ -27,6 +27,20 @@ body {
     color: #FF9DBA;
 }
 
+.search {
+    width: 16%;
+    margin-left: 10%;
+    padding-left: 15px;
+    display: block;
+    height: 2.1rem;
+    background-color: #FFF0F2;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #FF9DBA;
+    font-family: inherit;
+}
+
 nav {
     flex: 1;
     text-align: right;
@@ -39,44 +53,9 @@ ul li {
 }
 
 ul li a {
-    color: #000;
+    color: #FF9DBA;
 }
 
 ul li a:hover {
     color: #FFC0CB;
-}
-
-.info-block {
-    
-}
-
-.block {
-    font-family: Roboto, sans-serif;
-    text-align: center;
-    margin: 250px;
-    background: #FFC0CB;
-    border-radius: 25px;
-    padding: 30px;
-    color: #fff;
-    margin-right: 40%;
-    margin-left: 40%;
-}
-
-.block:hover {
-    background-color: #FF9AAB;
-}
-
-.block h1 {
-    padding-bottom: 15px;
-}
-
-.block-two {
-    text-align: center;
-    margin: -220px 0px -150px -150px;
-    background: #FFC0CB;
-    border-radius: 25px;
-    padding: 30px;
-    color: #fff;
-    margin-right: 40%;
-    margin-left: 40%;
 }
