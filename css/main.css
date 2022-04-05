@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #FFF0F2;
+    font-family: Montserrat, sans-serif;
+    transition: .6s;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 1px black;
+    padding: 0 5% 0 5%;
+    transition: .6s;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FF9DBA;
+}
+
+.logo:hover {
+    color: #FFC0CB;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+} 
+
+ul li a img:active {
+    height: 23px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-left: 2.1rem;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ccc;
+  border-radius: 34px;
+  transition: .4s;
+}
+.slider::before {
+  content: '';
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 4px;
+  bottom: 4px;
+  background: #fff;
+  border-radius: 50%;
+  transition: .4s;
+}
+input:checked + .slider {
+  background: #FF9DBA;
+}
+input:checked + .slider::before {
+  transform: translateX(26px);
+}
+.dark-mode {
+  background: #181818;
+}
+
+.dark-mode .copyright {
+  color: #fff;
+}
+
+.dark-mode .navbar {
+  background-color: #202020;
+}
+
+
+
+/*  position: absolute;
+  background: #474747;
+  width: 100%;
+  height: 80vh;
+  margin-top: 23px;
+}*/
+
+.video-bar i{
+  
+}
+
+.video-bar h1 {
+  color: #FF9DBA;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.video-img {
+  margin-left: 115px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  width: 25%;
+}
+
+.video-img:hover {
+  border: 3px solid #FFFF00;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 25px;
+  color: #000;
+  transition: .6s;
+}
+
+.zhan {
+  color: #ff0000;
+}
+
+@media screen and ( max-width: 420px) {
+  .navbar {
+    padding: 0 15% 0 15%;
+  }
+
+  .logo {
+    font-size: 23px;
+  }
+
+  .video-bar {
+    margin-right: 200px;
+    display: none;
+  }
+
+  .video-bar img{
+    width: 80%;
+    border-radius: 10px;
+  }
+
+  .video-bar h1 {
+    font-size: 25px;
+    padding-left: 100px;
+  }
+
+  nav ul li a {
+    display: none;
+  }
+}
